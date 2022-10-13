@@ -1,0 +1,81 @@
+<?xml  version="1.0" encoding="UTF-8" standalone="no"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" xmi:id="0.5" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http://scade.com/sdk/view/graphics" xmlns:layout="http://scade.com/sdk/layout" xmlns:navigation="http://scade.com/lattice/navigation" xmlns:widgets="http://scade.com/sdk/view/widgets">
+  <widgets:Page name="main">
+    <minArea width="414" height="736"/>
+    <location/>
+    <backgroundColor Red="248" Green="248" Blue="248"/>
+    <children xsi:type="widgets:RowView" paddingLeft="5" name="NavBar" paddingRight="5" paddingTop="5" paddingBottom="5">
+      <minArea/>
+      <location/>
+      <backgroundColor Red="255" Green="12" Blue="129"/>
+      <children xsi:type="widgets:Label" text="SCADE Textbox Control Example" paddingLeft="20" name="navbarTitle">
+        <font fontFamily="ArialMT" size="23">
+          <color Red="255" Green="255" Blue="255"/>
+        </font>
+        <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabHorizontalSpace="true" widthConstraint="MATCH_PARENT" grabVerticalSpace="true">
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <location x="5" y="5"/>
+        <size width="404" height="36"/>
+        <contentSize width="341" height="26"/>
+      </children>
+      <layout xsi:type="layout:GridLayout"/>
+      <maxArea width="-1" height="-1"/>
+      <size width="414" height="46"/>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="TOP" targetAnchor="TOP" source="/0/@children.0" target="/0"/>
+        <constraints source="/0/@children.0" target="/0"/>
+        <constraints sourceAnchor="WIDTH" constant="414" source="/0/@children.0"/>
+        <constraints sourceAnchor="HEIGHT" constant="46" source="/0/@children.0"/>
+      </layoutData>
+    </children>
+    <children xsi:type="widgets:Textbox" placeholder="Enter Your Name" paddingLeft="5" name="nameTextbox">
+      <font fontFamily="ArialMT" size="23">
+        <color Red="70" Green="70" Blue="70"/>
+      </font>
+      <location x="75" y="86"/>
+      <size width="265" height="56"/>
+      <contentSize width="265" height="26"/>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="TOP" targetAnchor="BOTTOM" constant="40" source="/0/@children.1" target="/0/@children.0"/>
+        <constraints sourceAnchor="WIDTH" constant="265" source="/0/@children.1"/>
+        <constraints sourceAnchor="HEIGHT" constant="56" source="/0/@children.1"/>
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.1" target="/0"/>
+      </layoutData>
+      <backgroundColor Red="255" Green="255" Blue="255"/>
+    </children>
+    <children xsi:type="widgets:Textbox" placeholder="Unique Password" secure="true" paddingLeft="5" name="passwordTextbox">
+      <font fontFamily="ArialMT" size="23">
+        <color Red="69" Green="69" Blue="69"/>
+      </font>
+      <location x="75" y="172"/>
+      <size width="265" height="56"/>
+      <contentSize width="265" height="26"/>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="TOP" targetAnchor="BOTTOM" constant="30" source="/0/@children.2" target="/0/@children.1"/>
+        <constraints sourceAnchor="WIDTH" constant="265" source="/0/@children.2"/>
+        <constraints sourceAnchor="HEIGHT" constant="56" source="/0/@children.2"/>
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.2" target="/0"/>
+      </layoutData>
+      <backgroundColor Red="255" Green="255" Blue="255"/>
+    </children>
+    <children xsi:type="widgets:Button" text="Sign in" paddingLeft="20" name="signinButton" horizontalAlignment="CENTER" paddingRight="20">
+      <font fontFamily="ArialMT" size="23">
+        <color Red="255" Green="248" Blue="246"/>
+      </font>
+      <location x="152" y="248"/>
+      <size width="111" height="35"/>
+      <contentSize width="71" height="26"/>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="TOP" targetAnchor="BOTTOM" constant="20" source="/0/@children.3" target="/0/@children.2"/>
+        <constraints sourceAnchor="HEIGHT" constant="35" source="/0/@children.3"/>
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.3" target="/0"/>
+      </layoutData>
+      <backgroundColor Red="255" Green="12" Blue="129"/>
+    </children>
+    <layout xsi:type="layout:AutoLayout"/>
+    <maxArea width="414" height="736"/>
+    <size width="414" height="736"/>
+  </widgets:Page>
+  <navigation:Navigation page="/0"/>
+</xmi:XMI>

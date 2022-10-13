@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:scade="http://www.scade.io/v0.1" widget-name="main" eObject-URI="main.page#/0" width="414" height="736">
+  <rect template-id="background" width="100%" height="100%" fill="#f8f8f8" />
+  <svg template-id="content-box">
+    <g template-id="content">
+      <svg eObject-URI="main.page#/0/@children.0" widget-name="NavBar" width="414" height="46">
+        <rect template-id="background" width="100%" height="100%" fill="#ff0c81" />
+        <svg template-id="content-box">
+          <g template-id="content">
+            <svg eObject-URI="main.page#/0/@children.0/@children.0" widget-name="navbarTitle" x="5" y="5" width="404" height="36">
+              <svg template-id="content-box" x="20" width="384" height="36">
+                <g template-id="content">
+                  <text alignment-baseline="central" font-size="23" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="18" fill="#ffffff">SCADE Textbox Control Example</text>
+                </g>
+              </svg>
+            </svg>
+          </g>
+        </svg>
+      </svg>
+      <svg eObject-URI="main.page#/0/@children.1" widget-name="nameTextbox" x="75" y="86" width="265" height="56">
+        <rect stroke-width="5" template-id="background" width="100%" height="100%" fill="#ffffff" stroke="#ff0c90" />
+        <svg template-id="content-box" x="5" width="260" height="56">
+          <g template-id="content">
+            <text alignment-baseline="central" font-size="23" font-family="ArialMT" font-style="normal" text-decoration="none" inputTextWidth="265" editable="true" template-id="node-text" x="0" y="28" fill="#464646" />
+          </g>
+        </svg>
+      </svg>
+      <svg eObject-URI="main.page#/0/@children.2" widget-name="passwordTextbox" x="75" y="172" width="265" height="56">
+        <rect stroke-width="5" template-id="background" width="100%" height="100%" fill="#ffffff" stroke="#ff0b8e" />
+        <svg template-id="content-box" x="5" width="260" height="56">
+          <g template-id="content">
+            <text alignment-baseline="central" font-size="23" font-family="ArialMT" font-style="normal" text-decoration="none" inputTextWidth="265" hidden="true" editable="true" template-id="node-text" x="0" y="28" fill="#454545" />
+          </g>
+        </svg>
+      </svg>
+      <svg eObject-URI="main.page#/0/@children.3" widget-name="signinButton" x="152" y="248" width="111" height="35">
+        <rect template-id="background" width="100%" height="100%" fill="#ff0c81" />
+        <svg template-id="content-box" x="20" width="71" height="35">
+          <g template-id="content">
+            <text text-anchor="middle" alignment-baseline="central" font-size="23" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="35.5" y="17.5" fill="#fff8f6">Sign in</text>
+          </g>
+        </svg>
+      </svg>
+    </g>
+  </svg>
+</svg>
